@@ -59,9 +59,9 @@ if __name__ == '__main__':
 			if i == 1:
 				server = smtplib.SMTP('smtp.gmail.com', 587)
 				server.starttls()
-				server.login("shividaffodil@gmail.com", "brunoharry")
+				server.login("yourmail@gmail.com", "password")
 				msg = "Dustbin Alert.... Dustbin Full"
-				server.sendmail("shividaffodil@gmail.com", "psneha716@gmail.com", msg)
+				server.sendmail("yourmail@gmail.com", "mailofreceiver@gmail.com", msg)
 				server.quit()
 
 
