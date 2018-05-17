@@ -1,6 +1,6 @@
 # Smart-Trash-Can
 Touchless Automatic Motion Sensor Trash Can with fullness detection. This Smart Trash Can is integrated
-with mail system which notifies the user when it’s full by sending a mail.
+with mail system which notifies the user when it’s full by sending a mail. 
 
 
 ### Components used:
@@ -38,13 +38,14 @@ There are two python files:
 
 
 ### Running
-To make the Smart Trash Can work run follow the steps:
-1] Fork this project to your GitHub account.
-2] After forking, clone the repository using the following command: `git clone https://github.com/Sneha711/Smart-Trash-Can.git`
-3] Enable SSH on the Raspberry Pi
-4] Login to Raspberry Pi. For example with `ssh pi@your_raspberry_pi_ip`
-5] Move both the files on Raspberry Pi
-6] Run both the files at the same time using the command: `python servo_ultrasonic_distance.py;python mail_ultrasonic_distance.py`
+To make the Smart Trash Can work run follow the steps: <br>
+1] Make the required connections <br>
+2] Fork this project to your GitHub account <br>
+3] After forking, clone the repository using the following command: `git clone https://github.com/Sneha711/Smart-Trash-Can.git` <br>
+4] Enable SSH on the Raspberry Pi <br>
+5] Login to Raspberry Pi. For example with `ssh pi@your_raspberry_pi_ip` <br>
+6] Move both the files on Raspberry Pi <br>
+7] Run both the files at the same time using the command: `python servo_ultrasonic_distance.py;python mail_ultrasonic_distance.py`
 
 
 ### Working
