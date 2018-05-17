@@ -10,8 +10,8 @@ with mail system which notifies the user when it’s full by sending a mail.
 
 ### System Setup
  
-![alt text](Smart-Trash-Can/dustbin1.jpeg "System Setup 1")
-![alt text](Smart-Trash-Can/dustbin2.jpeg "System Setup 2")
+![alt text](https://github.com/Sneha711/Smart-Trash-Can/blob/master/dustbin1.jpeg "System Setup 1")
+![alt text](https://github.com/Sneha711/Smart-Trash-Can/blob/master/dustbin2.jpeg "System Setup 2")
 
 There are two python files:
 * `mail_ultrasonic_distance.py`: Code for detecting user proximity(using ultrasonic sensor) and accordingly opening and closing the Trash Can(using Servo motor).
