@@ -1,10 +1,20 @@
 # Smart-Trash-Can
-There are two python files:
-1] mail_ultrasonic_distance.py
-2] servo_ultrasonic_distance.py
+Touchless Automatic Motion Sensor Trash Can with fullness detection. This Smart Trash Can is integrated
+with mail system which notifies the user when it’s full by sending a mail.
 
--mail_ultrasonic_distance.py is a file which detects user proximity and accordingly opens and closes the trash can.
--servo_ultrasonic_distance.py is a file which detects if the trash can is full, and when its full(i.e when it crosses certain distance threshold), it sends mail to the user.
+### Components used:
+* Raspberry Pi 3
+* 2 Ultrasonic Sensors HC-SR04
+* TowerPro MG995 Servo Motor
+* A Mini Trash Can.
+
+### Setup
+
+There are two python files:
+* `mail_ultrasonic_distance.py`: Code for detecting user proximity(using ultrasonic sensor) and accordingly opening and closing the Trash Can(using Servo motor).
+
+* `servo_ultrasonic_distance.py`: Code for detecting the fullness of the Trash Can(using ultrasonic sensor) and accordingly notifying the user by sending mail(using smtp).
+
 
 To make the Smart Trash Can work run both the files on raspberry pi. For that follow the steps:
 1] Open terminal and access the raspberry pi from it.
