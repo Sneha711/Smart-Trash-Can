@@ -30,17 +30,27 @@ System Setup 2:
 </p>
 
 
-
-
-
-
+### How it works
 There are two python files:
 * `mail_ultrasonic_distance.py`: Code for detecting user proximity(using ultrasonic sensor) and accordingly opening and closing the Trash Can(using Servo motor).
 
 * `servo_ultrasonic_distance.py`: Code for detecting the fullness of the Trash Can(using ultrasonic sensor) and accordingly notifying the user by sending mail(using smtp).
 
 
-To make the Smart Trash Can work run both the files on raspberry pi. For that follow the steps:
-1] Open terminal and access the raspberry pi from it.
-2] Run both the files.
+### Running
+To make the Smart Trash Can work run follow the steps:
+1] Fork this project to your GitHub account.
+2] After forking, clone the repository using the following command: `git clone https://github.com/Sneha711/Smart-Trash-Can.git`
+3] Enable SSH on the Raspberry Pi
+4] Login to Raspberry Pi. For example with `ssh pi@your_raspberry_pi_ip`
+5] Move both the files on Raspberry Pi
+6] Run both the files at the same time using the command: `python servo_ultrasonic_distance.py;python mail_ultrasonic_distance.py`
+
+
+### Working
+
+<p align="center">
+<img src="https://github.com/Sneha711/Smart-Trash-Can/blob/master/working.gif" width=40%>
+</p>
+
 
